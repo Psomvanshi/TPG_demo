@@ -1,0 +1,51 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.423115",
+   "Default View_TopLeft":"0,-567",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 1940 -y 570 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 1940 -y 590 -defaultsOSRD
+preplace port VGA_VS -pg 1 -lvl 7 -x 1940 -y 360 -defaultsOSRD
+preplace port VGA_HS -pg 1 -lvl 7 -x 1940 -y 320 -defaultsOSRD
+preplace portBus VGA_B -pg 1 -lvl 7 -x 1940 -y 60 -defaultsOSRD
+preplace portBus VGA_G -pg 1 -lvl 7 -x 1940 -y 160 -defaultsOSRD
+preplace portBus VGA_R -pg 1 -lvl 7 -x 1940 -y 260 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 440 -y 650 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 440 -y 210 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 120 -y 650 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 840 -y 250 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 4 -x 1190 -y 280 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 5 -x 1540 -y 350 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 4 -x 1190 -y 460 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 840 -y 510 -defaultsOSRD
+preplace inst VGA_R -pg 1 -lvl 6 -x 1810 -y 260 -defaultsOSRD
+preplace inst VGA_G -pg 1 -lvl 6 -x 1810 -y 160 -defaultsOSRD
+preplace inst VGA_B -pg 1 -lvl 6 -x 1810 -y 60 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 790 NJ 790 650
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 230 110 660
+preplace netloc clk_wiz_0_clk_out1 1 1 4 220 310 690 370 1000 370 1370
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 670 380 990 190 1380
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 1 N 230
+preplace netloc xlconstant_0_dout 1 3 2 1000 550 1390
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 3 3 1010 160 NJ 160 1690
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 5 2 NJ 360 NJ
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 5 2 NJ 320 NJ
+preplace netloc Net 1 5 1 1700 60n
+preplace netloc xlslice_2_Dout 1 6 1 NJ 60
+preplace netloc xlslice_1_Dout 1 6 1 NJ 160
+preplace netloc xlslice_0_Dout 1 6 1 NJ 260
+preplace netloc processing_system7_0_DDR 1 2 5 NJ 570 NJ 570 NJ 570 NJ 570 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 5 NJ 590 NJ 590 NJ 590 NJ 590 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 250
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 680 190n
+preplace netloc v_tpg_0_m_axis_video 1 4 1 1360 260n
+preplace netloc v_tc_0_vtiming_out 1 4 1 1360 310n
+levelinfo -pg 1 0 120 440 840 1190 1540 1810 1940
+pagesize -pg 1 -db -bbox -sgen 0 0 2080 800
+"
+}
+{
+   "da_ps7_cnt":"1"
+}
